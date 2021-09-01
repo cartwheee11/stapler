@@ -1,0 +1,36 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: black;
+	overflow: hidden;
+}
+
+.container {
+	display:  table;
+	width: 100%;
+	position: relative;
+	height: 100vh;
+}
+
+img {
+	width:  20%;
+}
+
+.stapler {
+	display: table-cell;
+	vertical-align: middle;
+	text-align:  center;
+}
+
+.top {
+	position: absolute;
+}
+
+.clicked > .top{
+	transform-origin: 100% 50%;
+	transform: rotate(-9deg);
+}
